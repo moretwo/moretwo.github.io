@@ -173,14 +173,17 @@ button {
     background: #777;
 }
 
+
 button {
     font-size: 75%;
-    background: #ed8151;
+		background: none;
+		border: 1px #fff solid;
 }
+
 
 button:hover,
 button:active {
-    background: #e86a32;
+    background: rgba(0,0,0,0.2);
 }
 
 .related {
