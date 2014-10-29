@@ -93,7 +93,7 @@ body {
     max-height: 100%;
     font-family: 'Open Sans','Helvetica Neue','Helvetica',Arial,'Hiragino Sans GB',
 'Microsoft YaHei','SimSun','Droid Sans Fallback',sans-serif;
-font-size: 2.0rem;
+font-size: 1.8rem;
 line-height: 1.6em;
 color: #3A4145;
 background: white;
@@ -108,7 +108,7 @@ background: white;
 
 ::selection {
     color: #222;
-    background: #D6EDFF;
+    background: #93e6ff;
     text-shadow: none;
 }
 
@@ -117,37 +117,36 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4.8rem;
     line-height: 1.2em;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     line-height: 1.2em;
     letter-spacing: -1px;
     text-indent: -2px;
 }
 
 h3 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
 }
 
 h4 {
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 h5 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 h6 {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 a {
@@ -205,12 +204,12 @@ blockquote {
     box-sizing: border-box;
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
-    border-left: #4a4a4a 0.4em solid;
+    border-left: #ddd 0.4em solid;
+    color:#777;
 }
 
 blockquote p {
     margin: 0.8em 0;
-    font-style: italic;
 }
 
 blockquote small {
@@ -238,22 +237,23 @@ code, tt {
     font-size: 0.85em;
     white-space: pre-wrap;
     border: 1px solid #E3EDF3;
-    background: #F7FAFB;
+    background: #f8f8f8;
     border-radius: 2px;
 }
 
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.6em 0;
-    border: 1px solid #E3EDF3;
+    margin: 1.2em 0;
+    border: 1px solid #ddd;
     width: 100%;
     padding: 10px;
-    font-family: Inconsolata, monospace, sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 0.9em;
+    line-height: 1.2em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: #f8f8f8;
     border-radius: 3px;
 }
 
@@ -426,7 +426,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
-   just for the lolz and stylepoints. */
+   just for the lolz and stylepoints.
 .post:after {
     display: block;
     content: "";
@@ -442,7 +442,7 @@ margin on the iframe, cause it breaks stuff. */
     -moz-border-radius: 100%;
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
-}
+} */
 
 .post-title {
     margin:0;
@@ -655,7 +655,7 @@ figure.highlight {
     word-wrap:normal;
 }
 figure.highlight figcaption {
-    padding: 7px 10px;
+    padding: 8px 10px;
     font-size: .8em;
 }
 figure.highlight table {
@@ -667,7 +667,9 @@ figure.highlight table > tbody > tr > td {
 }
 figure.highlight table > tbody > tr > td.gutter {
     max-width: 40px;
-    text-align: right;
+    width:40px;
+    text-align: left;
+    color:#999;
 }
 figure.highlight pre {
     border: none;
@@ -870,7 +872,7 @@ pre .chunk {
     line-height: 1.7em;
     color: #BBC7CC;
     text-align: center;
-    background: #F7FAFB;
+    background: #f8f8f8;
 }
 
 .site-footer a {
@@ -1021,15 +1023,15 @@ pre .chunk {
     }
 
     h2 {
-        font-size: 3.8rem;
+        font-size: 4rem;
     }
 
     h3 {
-        font-size: 3.3rem;
+        font-size: 3.2rem;
     }
 
     h4 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
 
 }
