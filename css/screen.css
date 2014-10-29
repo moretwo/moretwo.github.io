@@ -93,7 +93,7 @@ body {
     max-height: 100%;
     font-family: 'Open Sans','Helvetica Neue','Helvetica',Arial,'Hiragino Sans GB',
 'Microsoft YaHei','SimSun','Droid Sans Fallback',sans-serif;
-font-size: 1.8rem;
+font-size: 2.0rem;
 line-height: 1.6em;
 color: #3A4145;
 background: white;
@@ -108,7 +108,7 @@ background: white;
 
 ::selection {
     color: #222;
-    background: #93e6ff;
+    background: #D6EDFF;
     text-shadow: none;
 }
 
@@ -117,6 +117,7 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -237,23 +238,22 @@ code, tt {
     font-size: 0.85em;
     white-space: pre-wrap;
     border: 1px solid #E3EDF3;
-    background: #f8f8f8;
+    background: #F7FAFB;
     border-radius: 2px;
 }
 
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.2em 0;
-    border: 1px solid #ddd;
+    margin: 1.6em 0;
+    border: 1px solid #E3EDF3;
     width: 100%;
     padding: 10px;
-    font-family: monospace, sans-serif;
+    font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.9em;
-    line-height: 1.2em;
     white-space: pre;
     overflow: auto;
-    background: #f8f8f8;
+    background: #F7FAFB;
     border-radius: 3px;
 }
 
@@ -655,7 +655,7 @@ figure.highlight {
     word-wrap:normal;
 }
 figure.highlight figcaption {
-    padding: 8px 10px;
+    padding: 7px 10px;
     font-size: .8em;
 }
 figure.highlight table {
@@ -667,9 +667,7 @@ figure.highlight table > tbody > tr > td {
 }
 figure.highlight table > tbody > tr > td.gutter {
     max-width: 40px;
-    width:40px;
-    text-align: left;
-    color:#999;
+    text-align: right;
 }
 figure.highlight pre {
     border: none;
@@ -872,7 +870,7 @@ pre .chunk {
     line-height: 1.7em;
     color: #BBC7CC;
     text-align: center;
-    background: #f8f8f8;
+    background: #F7FAFB;
 }
 
 .site-footer a {
