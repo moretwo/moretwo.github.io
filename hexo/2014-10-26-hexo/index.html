@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>开始使用hexo in mabao-theme | Moretwo</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <meta name="generator" content="Moretwo">
+
+  
+  
+  
+
+  
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body class="home-template">
+<div id="perspective" class="perspective effect-movedown">
+  <div class="container">
+    <!-- wrapper -->
+    <div class="wrapper">
+
+      <header class="site-head"  style="background: #24282b url(/img/img-bg.jpg) 0 -20%" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="/img/logo.svg" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Moretwo</h1>
+            <h2 class="blog-description"><button id="showMenu">Show Menu</button></h2>
+        </div>
+    </div>
+</header>
+
+      
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2014-10-26T03:18:18.000Z" itemprop="datePublished">
+          2014 10 26
+      </time>
+    
+    
+    | 
+    <a href='/tags/hexo/'>hexo</a>,
+    
+    <a href='/tags/github/'>github</a>,
+    
+    <a href='/tags/blog/'>blog</a>,
+    
+    <a href='/tags/学习/'>学习</a>
+    
+    
+</span>
+    <h1 class="post-title">开始使用hexo in mabao-theme</h1>
+    <section class="post-content">
+      <blockquote>
+<p>一个码盲第一次尝试搭建 静态BLOG<br>一定要看 <code>http://hexo.io</code> 文档很丰富</p>
+<p>凭着仅有的一点前端技术对theme进行的修改再设计<br>基于hexo 静态模版发布系统，github  fork hexo-theme-casper</p>
+</blockquote>
+<p>mabao-theme是基于 hexo 制作的主题。<br>响应式设计，风格简约， 你可以点击 我的博客 查看效果。<br>Preview: <a href="http://moretwo.github.io" target="_blank" rel="external">live demo</a></p>
+<h3 id="关于主题：">关于主题：</h3>
+<ul>
+<li>喜欢极简，markdown 样式很关键</li>
+<li>干净、干净、干净</li>
+<li>用了disque评论，喜欢这风格，你们评不评不重要</li>
+<li>主题兼容性没测试，对于视觉党这儿不重要</li>
+<li>可以响应，但移动访问很慢 （可能是github 的原因，或许是我没写好）</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/moretwo/hexo-theme/master/theme.gif" alt=""></p>
+<h3 id="update">update</h3>
+<ul>
+<li>添加导航Nav</li>
+<li>添加字体图标</li>
+<li>修改样式style</li>
+<li>改进theme</li>
+</ul>
+<h2 id="前提">前提</h2>
+<h3 id="1-_安装hexo">1. 安装hexo</h3>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>npm install hexo -g</div><div class="line"><span class="variable">$ </span>hexo init blog</div><div class="line"><span class="variable">$ </span>cd blog</div><div class="line"><span class="variable">$ </span>npm install</div><div class="line"><span class="variable">$ </span>hexo server</div></pre></td></tr></table></figure>
+
+<h3 id="2-_安装_mabao-theme">2. 安装 mabao-theme</h3>
+<ul>
+<li>2.1 目录安装<br><a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/moretwo/hexo-theme" class="minibutton sidebar-button js-conduit-rewrite-url" title="Save moretwo/hexo-theme to your computer and use it in GitHub Desktop." aria-label="Save moretwo/hexo-theme to your computer and use it in GitHub Desktop." target="_blank" rel="external"><br><span class="octicon octicon-device-desktop"></span>Clone in Desktop</a></li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">将mabao-theme 放入你的blog 目录 theme 下</div><div class="line">myblog<span class="regexp">/theme/m</span>abao-theme</div></pre></td></tr></table></figure>
+
+<p> <img src="http://cdn2.dropmark.com/72477/a19a0b176c3bbc91b9f0034399c67d8c76af1efc/theme-p1.png" alt=""></p>
+<ul>
+<li>2.2 终端命令安装</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/moretwo/hexo-theme.git</div></pre></td></tr></table></figure>
+
+<h3 id="Enable">Enable</h3>
+<p>Modify <code>theme</code> setting in <code>_config.yml</code> to <code>casper</code>.（casper  是我参考的模版 名，表示尊重我就不修改了）<br>主题配置文件在主目录下的_config.yml：</p>
+<h2 id="Configuration">Configuration</h2>
+<pre><code><span class="preprocessor"># config</span>
+<span class="preprocessor">##*这写 背景图片和LOGO的路径，还有个人简介*</span>
+<span class="label">cover:</span> /img/img-bg.jpg
+<span class="label">logo:</span> /img/logo.svg
+<span class="label">bio:</span> 作为挨踢业的伪设计狮伪技术牛 搬过砖也种过地：爱看、爱听、爱玩儿、爱折腾、机械水电、泥瓦木匠啥都来
+<span class="preprocessor"># Content</span>
+<span class="label">excerpt_link:</span> Read More
+
+<span class="preprocessor"># Header  nav</span>
+<span class="label">menu:</span>
+<span class="label">Home:</span> /
+<span class="label">Archive:</span> /archive
+<span class="label">Images:</span> /images
+<span class="label">Wiki:</span> /wiki
+<span class="label">Favorites:</span> /favorites
+<span class="label">Contact:</span> /contact
+
+<span class="preprocessor">##Private: /private</span>
+<span class="preprocessor">##nav.fonticon.css</span>
+<span class="label">navclass:</span>
+<span class="label">Home:</span> icon-home
+<span class="label">Archive:</span> icon-news
+<span class="label">Images:</span> icon-image
+<span class="label">Wiki:</span> icon-wiki
+<span class="label">Favorites:</span> icon-Favorites
+<span class="label">Contact:</span> icon-mail
+
+<span class="preprocessor">##Private: icon-lock</span>
+<span class="label">rss:</span> /atom.xml
+</code></pre><h2 id="资料">资料</h2>
+<ol>
+<li><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></li>
+<li><a href="http://leeluolee.github.io/2013/03/02/use-hexo" target="_blank" rel="external">http://leeluolee.github.io/2013/03/02/use-hexo</a></li>
+<li><a href="https://github.com/moretwo/hexo-theme" target="_blank" rel="external">https://github.com/moretwo/hexo-theme</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-1" target="_blank" rel="external">http://zipperary.com/2013/05/28/hexo-guide-1</a></li>
+</ol>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>mabao</h4>
+    <p>作为挨踢业的伪设计狮伪技术牛 搬过砖也种过地：爱看、爱听、爱玩儿、爱折腾、机械水电、泥瓦木匠啥都来</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-sina-weibo" href="http://v.t.sina.com.cn/share/share.php?title=作为挨踢业的伪设计狮伪技术牛 搬过砖也种过地：爱看、爱听、爱玩儿、爱折腾、机械水电、泥瓦木匠啥都来 ?url=http://moretwo.github.io/hexo/2014-10-26-hexo/" target="_blank">
+        <span class="hidden">weibo</span>
+    </a>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://moretwo.github.io/hexo/2014-10-26-hexo/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://moretwo.github.io/hexo/2014-10-26-hexo/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://moretwo.github.io/hexo/2014-10-26-hexo/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/sketch/2014-11-02-sketchcz/">
+        ← Sketch 3 快捷键整理
+    </a>
+    
+    <span class="icon-logo">•</span>
+    
+    <a class="older-posts" href="/wiki/template/">
+        blog md template →
+    </a>
+    
+</nav>
+
+  <div id="comment" class="comments-area">
+    <h4 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h4>
+    
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    
+</div>
+
+</main>
+
+
+      
+<footer class="site-footer">
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Moretwo</a> &copy; 2014 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+
+
+<script type="text/javascript">
+    var disqus_shortname = 'moretwo';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+  </div>
+</div>
+
+<nav  class="outer-nav top horizontal">
+
+          <a class="icon-home"  href="/"><span>Home</span></a>
+
+          <a class="icon-news"  href="/archive"><span>Archive</span></a>
+
+          <a class="icon-image"  href="/images"><span>Images</span></a>
+
+          <a class="icon-wiki"  href="/wiki/2014-10-28-wiki/"><span>Wiki</span></a>
+
+          <a class="icon-Favorites"  href="/favorites"><span>Favorites</span></a>
+
+          <a class="icon-mail"  href="/about/2014-09-11-mabao/"><span>Contact</span></a>
+
+</nav>
+
+</div>
+</body>
+</html>
