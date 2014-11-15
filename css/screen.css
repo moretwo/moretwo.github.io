@@ -132,7 +132,7 @@ margin on the iframe, cause it breaks stuff. */
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
 } */
-
+.post .post-header img {margin:1.4rem 0 0 0;}
 .post-title { margin: 0; }
 .post-title a { text-decoration: none; }
 .post-excerpt p { margin: 1.6rem 0 0 0; font-size: 0.9em; line-height: 1.6em; }
