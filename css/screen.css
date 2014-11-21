@@ -105,7 +105,8 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 /* Big cover image on the home page */
-.site-head { position: relative; display: table; width: 100%; height: 60%; margin-bottom: 5rem; text-align: center; color: #fff; background: #303538 no-repeat center center; background-size: cover; }
+.site-head { position: relative; display: table; width: 100%; height: 60%; text-align: center; color: #fff; background:no-repeat center center; background-size: cover; }
+.content { background: #fff;padding: 10px 0 0 0; }
 .blog-logo { text-decoration: none; }
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 .blog-logo img { display: block; max-height: 100px; width: auto; margin: 0 auto; line-height: 0; }
@@ -216,7 +217,7 @@ pre .chunk { color: #aaa }
    ========================================================================== */
 
 /* The main wrapper for our pagination links */
-.pagination { position: relative; width: 80%; max-width: 700px; margin: 4rem auto; font-size: 1.3rem; color: #9EABB3; text-align: center; }
+.pagination { position: relative; width: 80%; max-width: 700px; margin: 4rem auto; font-family: 'Open Sans', sans-serif; font-size: 1.3rem; color: #9EABB3; text-align: center; }
 .pagination a { color: #9EABB3; }
 /* Push the previous/next links out to the left/right */
 .older-posts, .newer-posts { position: absolute; display: inline-block; padding: 0 15px; border: #EBF2F6 2px solid; text-decoration: none; border-radius: 30px; transition: border ease 0.3s; }
@@ -228,7 +229,7 @@ pre .chunk { color: #aaa }
    8. Footer - The bottom of every page
    ========================================================================== */
 
-.site-footer { position: relative; margin: 8rem 0 0 0; padding: 4rem 0; border-top: #EBF2F6 1px solid; font-size: 1.3rem; line-height: 1.7em; color: #BBC7CC; text-align: center; background: #f8f8f8; }
+.site-footer { position: relative; margin: 8rem 0 0 0; padding: 4rem 0; border-top: #EBF2F6 1px solid; font-family: 'Open Sans', sans-serif; font-size: 1.3rem; line-height: 1.7em; color: #BBC7CC; text-align: center; background: #f8f8f8; }
 .site-footer a { color: #BBC7CC; text-decoration: underline; }
 .site-footer a:hover { color: #50585D; }
 .poweredby .icon-ghost { font-weight: 700; text-decoration: none; }
