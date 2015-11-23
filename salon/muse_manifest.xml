@@ -1,0 +1,42 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="bm.html" resolutions="1x" timestamp="1448245888720">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="index.css" crc="500974449" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
+    <file name="museutils.js" crc="275725342" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index"/>
+    <file name="webpro.js" crc="3883484123" ref="index"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="index"/>
+    <file name="touchswipe.js" crc="4218319045" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="h1.svg" crc="265256910" ref="index"/>
+    <file name="h1_poster_.png" crc="3928024163" ref="index"/>
+    <file name="img-web.svg" crc="96957641" ref="index"/>
+    <file name="chart.svg" crc="4019737357" ref="index"/>
+    <file name="chart_poster_.png" crc="4195039971" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="img10.jpg" crc="3819339200" seo="true" ref="index"/>
+    <file name="img17.jpg" crc="3820407832" seo="true" ref="index"/>
+    <file name="img18.jpg" crc="444092649" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="u1502-grad.png" crc="4074758517" ref="index"/>
+    <file name="u1502-r-grad.png" crc="3974719627" ref="index"/>
+    <file name="img25.jpg" crc="4231087493" seo="true" ref="index"/>
+    <file name="img30.jpg" crc="4148617783" seo="true" ref="index"/>
+    <file name="img36.jpg" crc="4282815578" seo="true" ref="index"/>
+    <file name="img40.jpg" crc="172292522" seo="true" ref="index"/>
+    <file name="img41.jpg" crc="3964286184" seo="true" ref="index"/>
+    <file name="img43.jpg" crc="3911242308" seo="true" ref="index"/>
+    <file name="img44.jpg" crc="5996633" seo="true" ref="index"/>
+    <file name="img46.jpg" crc="4199188844" seo="true" ref="index"/>
+    <file name="img47.png" crc="293310985" seo="true" ref="index"/>
+    <file name="img48.jpg" crc="4220921207" seo="true" ref="index"/>
+    <file name="img49.png" crc="4159885437" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4118329175" seo="true" mt="1448245767579" redirect="true"/>
+</manifest>
